@@ -148,7 +148,7 @@ If the checklist cannot be completed in time, move the start date rather than la
 
 | Must work in the product | May be manual or assisted in the pilot |
 |---|---|
-| Clip playback with synchronized highlighting, segment replay, and speed control | Class setup and invitations |
+| Clip playback with synchronized highlighting, segment replay, speed control, and the Translate button | Class setup and invitations |
 | Recording, replay of the attempt, and upload | Assignment, due-date, and feedback-ready messages |
 | Sign-in that keeps learners, classes, and schools separate | Feedback review and release |
 | Feedback display and feedback status | Teacher report and school summary |
@@ -163,10 +163,11 @@ If the checklist cannot be completed in time, move the start date rather than la
 1. The learner opens an assigned clip and sees its title, level, and short instruction.
 2. The learner watches a speaker whose face and mouth are clearly visible and reads the accompanying target-language text.
 3. The displayed words are highlighted in time with speech.
-4. The learner selects or is guided to a short segment and shadows the speaker while the video plays and the words highlight in sync.
-5. To get feedback, the learner listens to the reference and then records the same segment with the reference audio off.
-6. The learner sees the submission and feedback status, and can replay their attempt and the reference. When feedback is ready, the learner can practise the suggested next step and retry.
-7. The learner sees completed practice and an achievable next action.
+4. The learner can press a Translate button to see a translation of the text, and press it again to hide it.
+5. The learner selects or is guided to a short segment and shadows the speaker while the video plays and the words highlight in sync.
+6. To get feedback, the learner listens to the reference and then records the same segment with the reference audio off.
+7. The learner sees the submission and feedback status, and can replay their attempt and the reference. When feedback is ready, the learner can practise the suggested next step and retry.
+8. The learner sees completed practice and an achievable next action.
 
 ### Learner requirements and acceptance criteria
 
@@ -187,7 +188,7 @@ If the checklist cannot be completed in time, move the start date rather than la
 | L13 | Understand instructions and feedback | Instructions, error messages, and written feedback are in a language the learner can read at their level, decided for each track before launch. Words and phrases being practised stay in the target language. Starting hypothesis to confirm in discovery: Portuguese for the `en-US` track and English for the `pt-PT` track. |
 | L14 | Know when to return | The learner is told when feedback is ready and when an assigned activity is due, through a channel agreed with the school, such as email or the teacher's class channel. Sending these messages manually is acceptable in the pilot. |
 | L15 | Know the feedback limit | The learner can re-record as often as they like before submitting. For each assigned segment, the first usable submission and at most one retry after feedback are sent for reviewed feedback (Section 8). The learner is told this before submitting and can keep practising and replaying further attempts without feedback. |
-
+| L16 | Translate the text | Each clip has a Translate button that shows a translation of the displayed text, and the learner can hide it again. The translation is shown in the learner's language, decided for each track (L13), and the target-language text stays visible. Translations are reviewed by a teacher or qualified content reviewer before publication (Section 10); machine translation is not shown unreviewed. Using Translate does not affect completion or feedback, and the control has an accessible label. |
 Playing, pausing, highlighting, and recording should be tested on actual pilot devices and connection conditions. No specific synchronization tolerance is committed until it has been tested and agreed.
 
 ### Technical limits to decide and test before launch
@@ -276,7 +277,7 @@ The initial dashboard need not include grades, detailed pronunciation analytics,
 ## 10. Content requirements
 
 - Each pilot clip must be self-produced or used under a license that permits the intended commercial use, distribution, and any editing. Secure appropriate performer, likeness, and other relevant rights.
-- Each clip has a reviewed transcript, segment boundaries, word timing, target language and locale, level, and title. Each lesson has one practical communication objective and one speaking focus, such as asking someone to repeat a question politely while practising word stress. Explain the meaning or key vocabulary when the target learners may not understand the script.
+- Each clip has a reviewed transcript, segment boundaries, word timing, a reviewed translation for the Translate button (L16), target language and locale, level, and title. Each lesson has one practical communication objective and one speaking focus, such as asking someone to repeat a question politely while practising word stress. Explain the meaning or key vocabulary when the target learners may not understand the script.
 - European Portuguese clips use speakers modelling European Portuguese and scripts reviewed for vocabulary, spelling, and natural speech in Portugal. Apply the same locale-specific review to US English clips.
 - A teacher or qualified content reviewer checks wording, naturalness, synchronization, face visibility, and suitability for the intended learners before publication.
 - Short, practical segments are preferred; determine appropriate length with pilot users rather than setting a fixed duration now.
@@ -464,6 +465,7 @@ The outreach plan and its pilot agreement currently promise things this document
 - [ ] Feedback reviewer engaged for each locale; the reviewed-attempt limit and turnaround are agreed and shown to learners.
 - [ ] Interface and feedback language decided for each track.
 - [ ] Sign-in, first-run microphone check, and feedback-ready and due-date messages tested.
+- [ ] Translate button shows a reviewed translation in the agreed language for every clip, and hides it again.
 - [ ] Playback speed, recording length, recording format, and upload on a poor connection tested on agreed devices.
 - [ ] Outreach plan, pilot agreement, and demo consistent with this document.
 - [ ] Go/no-go thresholds recorded and delivery cost tracking in place.
